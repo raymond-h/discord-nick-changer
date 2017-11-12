@@ -1,6 +1,6 @@
 {
-	"name": "",
-	"description": "",
+	"name": "discord-nick-changer",
+	"description": "Change a user's nick in a Discord server to a random noun!",
 	"author": "Raymond Hammarling",
 	"license": "MIT",
 	"scripts": {
