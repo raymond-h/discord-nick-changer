@@ -7,7 +7,8 @@
 		"lint": "eslint lib/ test/",
 		"test": "ava",
 		"watch": "ava -w",
-		"prepublish": "run-s lint test"
+		"prepublish": "run-s lint test",
+		"start": "node lib"
 	},
 	"devDependencies": {
 		"ava": "^0.23.0",
