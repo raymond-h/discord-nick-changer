@@ -1,29 +1,33 @@
 {
-	"name": "discord-nick-changer",
-	"description": "Change a user's nick in a Discord server to a random noun!",
-	"author": "Raymond Hammarling",
-	"license": "MIT",
-	"scripts": {
-		"lint": "eslint lib/ test/",
-		"test": "ava",
-		"watch": "ava -w",
-		"prepublish": "run-s lint test",
-		"start": "node lib"
-	},
-	"engines": {
-		"node": ">=8.2.1 <9.0.0"
-	},
-	"devDependencies": {
-		"ava": "^0.23.0",
-		"eslint": "^4.11.0",
-		"eslint-config-kellyirc": "^3.1.0",
-		"npm-run-all": "^4.1.2"
-	},
-	"dependencies": {
-		"discord.js": "^11.2.1",
-		"dotenv": "^4.0.0",
-		"got": "^7.1.0",
-		"lodash": "^4.17.4",
-		"random-item": "^1.0.0"
-	}
+  "name": "discord-nick-changer",
+  "description": "Change a user's nick in a Discord server to a random noun!",
+  "author": "Raymond Hammarling",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint lib/ test/",
+    "test": "ava",
+    "watch": "ava -w",
+    "prepublish": "run-s lint test",
+    "start": "node lib"
+  },
+  "engines": {
+    "node": ">=8.2.1 <9.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "eslint": "^4.11.0",
+    "eslint-config-kellyirc": "^3.1.0",
+    "npm-run-all": "^4.1.2"
+  },
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "dotenv": "^4.0.0",
+    "got": "^7.1.0",
+    "lodash": "^4.17.4",
+    "random-item": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raymond-h/discord-nick-changer"
+  }
 }
